@@ -5,8 +5,8 @@
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/hejazizo/)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:vibhu.gautam7@gmail.com)
-[![Website Badge](https://img.shields.io/badge/-Website-c14438?style=flat&logo=Google-Chrome&logoColor=white&link=https://pytopia.ai)](https://pytopia.ai)
-[![Github](https://img.shields.io/github/followers/hejazizo?label=Follow&style=social)](https://github.com/hejazizo)
+[![Website Badge](https://img.shields.io/badge/-Website-c14438?style=flat&logo=Google-Chrome&logoColor=white&link=https://pytopia.ai)](https://vibhugautam.com/)
+[![Github](https://img.shields.io/github/followers/hejazizo?label=Follow&style=social)](https://github.com/vibhug0077)
 
 - 💻 Professor of Practice in Computer Science at UPES . Dehradun , Uttrakhand - India.
 - 🤔 I’m currently teaching - Business Analytics , Data Science, Devops , Mlops , Cloud Model Deployment & Docker and Kubernetes. Check it out if interested.
