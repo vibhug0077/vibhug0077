@@ -10,7 +10,7 @@
 
 - 💻 Professor of Practice in Computer Science at UPES . Dehradun , Uttrakhand - India.
 - 🤔 I’m currently teaching - Business Analytics , Data Science, Devops , Mlops , Cloud Model Deployment & Docker and Kubernetes. Check it out if interested.
-- 🌱 I also teach Python, Machine Learning, Git, etc. Visit my website [https://vibhugautam.com](https://vibhug0077.github.io/VibhuGautam/)
+- 🌱 I also teach Python, Machine Learning, Git, etc. Visit my [website](https://vibhug0077.github.io/VibhuGautam/)
 - 📫 How to reach me: vibhu.gautam7@gmail.com
 
 
