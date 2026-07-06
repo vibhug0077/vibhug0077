@@ -1,18 +1,19 @@
 <!--
-Profile README for: vibhug0077
-Repo: https://github.com/vibhug0077/vibhug0077
+GitHub Profile README
+Profile repository: vibhug0077/vibhug0077
+Important fix: this version avoids broken GitHub Readme Stats repo-card images.
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,55:2563eb,100:22c55e&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=38&fontSize=58&fontColor=ffffff&desc=Data%20Science%20%7C%20MLOps%20%7C%20Cloud%20%7C%20Linux%20%7C%20Docker%20%7C%20Kubernetes&descAlign=50&descAlignY=58" alt="Vibhu Gautam profile banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:2563eb,100:22c55e&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=38&fontSize=58&fontColor=ffffff&desc=Data%20Science%20%7C%20MLOps%20%7C%20Cloud%20%7C%20Linux%20%7C%20Docker%20%7C%20Kubernetes&descAlign=50&descAlignY=58" alt="Vibhu Gautam Profile Banner" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=900&center=true&vCenter=true&width=950&lines=Professor+of+Practice+%7C+Computer+Science;Data+Science+%2B+MLOps+%2B+Cloud+Deployment;Building+hands-on+labs+for+Python%2C+Linux%2C+Docker+and+AI;Turning+complex+tech+into+practical+learning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=900&center=true&vCenter=true&width=950&lines=Professor+of+Practice+%7C+Computer+Science;Data+Science+%2B+MLOps+%2B+Cloud+Deployment;Building+hands-on+labs+for+Python%2C+Linux%2C+Docker+and+AI;Turning+complex+tech+into+practical+learning)](https://git.io/typing-svg)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=vibhug0077&label=Profile%20Views&color=2563eb&style=for-the-badge)](https://github.com/vibhug0077)
-[![GitHub followers](https://img.shields.io/github/followers/vibhug0077?label=Followers&style=for-the-badge&logo=github)](https://github.com/vibhug0077?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/vibhug0077?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github)](https://github.com/vibhug0077?tab=repositories)
-[![Website](https://img.shields.io/badge/Portfolio-Visit-22c55e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vibhug0077.github.io/VibhuGautam/)
+[![Followers](https://img.shields.io/github/followers/vibhug0077?label=Followers&style=for-the-badge&logo=github)](https://github.com/vibhug0077?tab=followers)
+[![Repositories](https://img.shields.io/badge/Repositories-Learning%20Labs-22c55e?style=for-the-badge&logo=github)](https://github.com/vibhug0077?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vibhug0077.github.io/VibhuGautam/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vibhugautam7)
 [![Email](https://img.shields.io/badge/Gmail-vibhu.gautam7-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vibhu.gautam7@gmail.com)
 
@@ -26,10 +27,10 @@ I am **Vibhu Gautam**, a **Professor of Practice in Computer Science** focused o
 
 - **Data Science, Machine Learning, Deep Learning and Business Analytics**
 - **DevOps, MLOps, Docker, Kubernetes and Cloud Model Deployment**
-- **Python programming, Linux labs, automation and applied AI systems**
+- **Python Programming, Linux Labs, Bash Automation and Applied AI**
 - **Project-based teaching, hands-on labs and portfolio-ready student work**
 
-My GitHub is a growing collection of teaching repositories, practical labs, technical notes, notebooks, automation scripts and learning resources.
+My GitHub is a growing collection of course repositories, practical labs, notebooks, automation scripts, deployment examples and student-friendly technical resources.
 
 ---
 
@@ -40,19 +41,22 @@ My GitHub is a growing collection of teaching repositories, practical labs, tech
 <td width="33%" valign="top">
 
 ### 🧠 Applied AI
+
 Building learning resources around classical ML, deep learning, perception, analytics and model deployment.
 
 </td>
 <td width="33%" valign="top">
 
 ### ⚙️ MLOps + Cloud
+
 Creating practical labs around Docker, Kubernetes, Linux, Streamlit, CI/CD and cloud deployment workflows.
 
 </td>
 <td width="33%" valign="top">
 
 ### 📚 Teaching Repositories
-Designing clean, structured repositories that students can use for labs, viva, assignments and portfolio development.
+
+Designing clean repositories that students can use for labs, assignments, viva and portfolio development.
 
 </td>
 </tr>
@@ -80,6 +84,7 @@ Designing clean, structured repositories that students can use for labs, viva, a
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-111827?style=for-the-badge&logo=tensorflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-111827?style=for-the-badge&logo=pytorch)
 ![OpenCV](https://img.shields.io/badge/OpenCV-111827?style=for-the-badge&logo=opencv)
+![Streamlit](https://img.shields.io/badge/Streamlit-111827?style=for-the-badge&logo=streamlit)
 
 ### DevOps, MLOps & Cloud
 
@@ -94,57 +99,92 @@ Designing clean, structured repositories that students can use for labs, viva, a
 
 ---
 
-## 🗂️ Featured Repositories
+## 📦 Featured Repositories
 
-<div align="center">
+> This section uses **pure Markdown/HTML cards instead of external repo-card images**, so it will not break if third-party stats services are slow, rate-limited or unavailable.
 
-<a href="https://github.com/vibhug0077/Python_Programing">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Python_Programing&theme=tokyonight&hide_border=true" alt="Python Programming repository" />
-</a>
-<a href="https://github.com/vibhug0077/Docker_Containers">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Docker_Containers&theme=tokyonight&hide_border=true" alt="Docker Containers repository" />
-</a>
-<a href="https://github.com/vibhug0077/Linux_Lab">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Linux_Lab&theme=tokyonight&hide_border=true" alt="Linux Lab repository" />
-</a>
-<a href="https://github.com/vibhug0077/Mathematics-for-Machine-Learning">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Mathematics-for-Machine-Learning&theme=tokyonight&hide_border=true" alt="Mathematics for Machine Learning repository" />
-</a>
-<a href="https://github.com/vibhug0077/Classical_Machine_Learning_First_Course">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Classical_Machine_Learning_First_Course&theme=tokyonight&hide_border=true" alt="Classical Machine Learning First Course repository" />
-</a>
-<a href="https://github.com/vibhug0077/DSA_Python_Easy_21Day">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=DSA_Python_Easy_21Day&theme=tokyonight&hide_border=true" alt="DSA Python Easy 21 Day repository" />
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+### 🐍 [Python Programming](https://github.com/vibhug0077/Python_Programing)
+
+Python learning material, notebooks, programming fundamentals and practice examples.
+
+**Focus:** Python • Notebooks • Programming Logic • Foundations
+
+</td>
+<td width="50%" valign="top">
+
+### 🐧 [Linux Lab](https://github.com/vibhug0077/Linux_Lab)
+
+Linux commands, Bash scripting, permissions, automation and practical lab exercises.
+
+**Focus:** Linux • Bash • Shell Scripting • Lab Practice
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🐳 [Docker Containers](https://github.com/vibhug0077/Docker_Containers)
+
+Docker labs, containerization examples, image creation, Compose and DevOps practice.
+
+**Focus:** Docker • Containers • DevOps • MLOps Foundations
+
+</td>
+<td width="50%" valign="top">
+
+### 📐 [Mathematics for Machine Learning](https://github.com/vibhug0077/Mathematics-for-Machine-Learning)
+
+Mathematical foundations required for machine learning and data science.
+
+**Focus:** Linear Algebra • Calculus • Probability • ML Math
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [Classical Machine Learning First Course](https://github.com/vibhug0077/Classical_Machine_Learning_First_Course)
+
+Classical ML concepts, algorithms, examples and practical learning resources.
+
+**Focus:** Regression • Classification • ML Models • Evaluation
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [DSA Python Easy 21 Day](https://github.com/vibhug0077/DSA_Python_Easy_21Day)
+
+A beginner-friendly Python DSA practice path for consistent problem-solving.
+
+**Focus:** Python • DSA • Practice Plan • Coding Skills
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📌 Repository Map
+## 🗺️ Repository Map
 
 | Area | Repositories | What You Will Find |
 |---|---|---|
 | **Python + Programming** | [`Python_Programing`](https://github.com/vibhug0077/Python_Programing), [`DSA_Python_Easy_21Day`](https://github.com/vibhug0077/DSA_Python_Easy_21Day) | Python notebooks, programming practice, DSA foundations |
 | **Machine Learning** | [`Classical_Machine_Learning_First_Course`](https://github.com/vibhug0077/Classical_Machine_Learning_First_Course), [`Mathematics-for-Machine-Learning`](https://github.com/vibhug0077/Mathematics-for-Machine-Learning) | ML concepts, math foundations, notebooks and examples |
 | **Linux + Automation** | [`Linux_Lab`](https://github.com/vibhug0077/Linux_Lab) | Linux commands, shell scripting, lab practice and automation |
-| **DevOps + Containers** | [`Docker_Containers`](https://github.com/vibhug0077/Docker_Containers) | Docker labs, containers, orchestration foundations |
+| **DevOps + Containers** | [`Docker_Containers`](https://github.com/vibhug0077/Docker_Containers) | Docker labs, containers and orchestration foundations |
 | **Cloud + Portfolio** | [`Cloud_Computing_Book`](https://github.com/vibhug0077/Cloud_Computing_Book), [`VibhuGautam`](https://github.com/vibhug0077/VibhuGautam) | Cloud notes, web portfolio and learning resources |
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Activity
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=vibhug0077&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vibhug0077&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
-<br>
-
-<img height="170" src="https://streak-stats.demolab.com?user=vibhug0077&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-<br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vibhug0077&theme=tokyo-night&hide_border=true&area=true" alt="GitHub contribution activity graph" />
 
@@ -192,7 +232,8 @@ mindmap
 
 > **Teach by building. Learn by shipping. Improve by documenting.**
 
-I believe students learn best when concepts are connected to real systems.  
+I believe students learn best when concepts are connected to real systems.
+
 That is why my repositories focus on:
 
 - clean folder structure,
@@ -220,9 +261,15 @@ That is why my repositories focus on:
 | [`Linux_Lab`](https://github.com/vibhug0077/Linux_Lab) | Linux commands, Bash scripting and lab practice |
 | [`people-analytics-intelligence-lab`](https://github.com/vibhug0077/people-analytics-intelligence-lab) | Python based learning repository |
 | [`Docker_Containers`](https://github.com/vibhug0077/Docker_Containers) | Docker, containers and DevOps labs |
+<<<<<<< HEAD
 | [`Python_Programing`](https://github.com/vibhug0077/Python_Programing) | Python notebooks and programming foundations |
 | [`UPES_PG_Template`](https://github.com/vibhug0077/UPES_PG_Template) | Learning Resource based learning repository |
 | [`Bridge-Course`](https://github.com/vibhug0077/Bridge-Course) | Learning Resource based learning repository |
+=======
+| [`Mathematics-for-Machine-Learning`](https://github.com/vibhug0077/Mathematics-for-Machine-Learning) | Mathematics foundations for ML |
+| [`Classical_Machine_Learning_First_Course`](https://github.com/vibhug0077/Classical_Machine_Learning_First_Course) | Classical ML concepts and examples |
+| [`DSA_Python_Easy_21Day`](https://github.com/vibhug0077/DSA_Python_Easy_21Day) | Python DSA practice plan |
+>>>>>>> 06bc17c (adsasdasD)
 <!--END:DYNAMIC_PROFILE-->
 
 ---

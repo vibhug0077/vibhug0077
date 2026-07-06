@@ -2,7 +2,7 @@ name: Update Profile README
 
 on:
   schedule:
-    # Runs daily at 08:00 IST / 02:30 UTC
+    # Daily at 08:00 IST / 02:30 UTC
     - cron: "30 2 * * *"
   workflow_dispatch:
   push:
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Update dynamic profile section
+      - name: Update dynamic text section
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile_readme.py

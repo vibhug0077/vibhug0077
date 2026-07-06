@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """
-Dynamic GitHub Profile README updater.
+Reliable text-based GitHub Profile README updater.
 
-What it does:
-- Updates the section between <!--START:DYNAMIC_PROFILE--> and <!--END:DYNAMIC_PROFILE-->
-- Adds current IST timestamp
-- Pulls public repositories from GitHub API when available
-- Falls back to a curated repository list if API access fails
+This script updates only the text/table section between:
+<!--START:DYNAMIC_PROFILE--> and <!--END:DYNAMIC_PROFILE-->
 
-No external Python packages required.
+It intentionally does NOT generate external image cards for repositories.
+That avoids broken README images caused by third-party stats services.
 """
 
 from __future__ import annotations
@@ -24,7 +22,7 @@ from zoneinfo import ZoneInfo
 USERNAME = "vibhug0077"
 README_PATH = "README.md"
 
-CURATED_REPOS = [
+FALLBACK_REPOS = [
     ("Python_Programing", "Python notebooks and programming foundations"),
     ("Linux_Lab", "Linux commands, Bash scripting and lab practice"),
     ("Docker_Containers", "Docker, containers and DevOps labs"),
@@ -34,9 +32,9 @@ CURATED_REPOS = [
 ]
 
 
-def fetch_public_repositories(username: str) -> list[dict]:
-    """Fetch public repositories from GitHub API."""
-    url = f"https://api.github.com/users/{username}/repos?sort=updated&per_page=10"
+def fetch_repos(username: str) -> list[dict]:
+    """Fetch public repositories sorted by latest update."""
+    url = f"https://api.github.com/users/{username}/repos?sort=updated&per_page=20"
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": f"{username}-profile-readme-updater",
@@ -52,15 +50,12 @@ def fetch_public_repositories(username: str) -> list[dict]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def describe_repo(repo: dict) -> str:
-    """Create a short focus line for a repo."""
-    description = repo.get("description") or ""
-    language = repo.get("language") or "Learning Resource"
+def clean_description(repo: dict) -> str:
+    """Return a concise description for a repository."""
+    description = (repo.get("description") or "").strip()
+    language = repo.get("language") or "Learning"
 
-    if description:
-        return description.strip()
-
-    focus_by_name = {
+    fallback = {
         "Python_Programing": "Python notebooks and programming foundations",
         "Linux_Lab": "Linux commands, Bash scripting and lab practice",
         "Docker_Containers": "Docker, containers and DevOps labs",
@@ -69,30 +64,47 @@ def describe_repo(repo: dict) -> str:
         "DSA_Python_Easy_21Day": "Python DSA practice plan",
     }
 
-    return focus_by_name.get(repo.get("name", ""), f"{language} based learning repository")
+    if repo.get("name") in fallback:
+        return fallback[repo["name"]]
+
+    return description if description else f"{language} based learning repository"
 
 
 def build_dynamic_section() -> str:
-    """Build dynamic markdown block."""
     now = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %H:%M IST")
 
     rows: list[str] = []
 
     try:
-        repos = fetch_public_repositories(USERNAME)
-        repos = [repo for repo in repos if not repo.get("fork") and repo.get("name") != USERNAME]
+        repos = fetch_repos(USERNAME)
+        repos = [
+            repo for repo in repos
+            if not repo.get("fork") and repo.get("name") != USERNAME
+        ]
+
+        priority = {
+            "Python_Programing": 1,
+            "Linux_Lab": 2,
+            "Docker_Containers": 3,
+            "Mathematics-for-Machine-Learning": 4,
+            "Classical_Machine_Learning_First_Course": 5,
+            "DSA_Python_Easy_21Day": 6,
+        }
+
+        repos.sort(key=lambda r: priority.get(r.get("name", ""), 999))
 
         for repo in repos[:6]:
             name = repo["name"]
             url = repo["html_url"]
-            focus = describe_repo(repo)
+            focus = clean_description(repo).replace("|", "-")
             rows.append(f"| [`{name}`]({url}) | {focus} |")
+
     except Exception as exc:
-        print(f"GitHub API fallback used: {exc}")
-        for name, focus in CURATED_REPOS:
+        print(f"Fallback used because GitHub API could not be reached: {exc}")
+        for name, focus in FALLBACK_REPOS:
             rows.append(f"| [`{name}`](https://github.com/{USERNAME}/{name}) | {focus} |")
 
-    repo_table = "\n".join(rows)
+    repo_rows = "\n".join(rows)
 
     return f"""<!--START:DYNAMIC_PROFILE-->
 ### Latest Profile Update
@@ -105,32 +117,31 @@ def build_dynamic_section() -> str:
 
 | Repository | Focus |
 |---|---|
-{repo_table}
+{repo_rows}
 <!--END:DYNAMIC_PROFILE-->"""
 
 
 def update_readme() -> None:
-    """Replace the dynamic block inside README.md."""
     with open(README_PATH, "r", encoding="utf-8") as file:
-        readme = file.read()
+        content = file.read()
 
     pattern = r"<!--START:DYNAMIC_PROFILE-->.*?<!--END:DYNAMIC_PROFILE-->"
     replacement = build_dynamic_section()
 
-    updated_readme, replacements = re.subn(
+    updated_content, replacements = re.subn(
         pattern,
         replacement,
-        readme,
+        content,
         flags=re.DOTALL,
     )
 
     if replacements == 0:
-        raise RuntimeError("Dynamic profile markers not found in README.md")
+        raise RuntimeError("Dynamic markers not found in README.md")
 
     with open(README_PATH, "w", encoding="utf-8") as file:
-        file.write(updated_readme)
+        file.write(updated_content)
 
-    print("README.md dynamic profile section updated successfully.")
+    print("README.md updated successfully.")
 
 
 if __name__ == "__main__":

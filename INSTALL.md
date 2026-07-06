@@ -1,6 +1,20 @@
-# Installation Guide
+# Install Fixed Profile README
 
-Use these files in your special GitHub profile repository:
+This version fixes the broken repository-card image problem.
+
+## What changed?
+
+The old Featured Repositories section used image cards like:
+
+```md
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=vibhug0077&repo=Python_Programing" />
+```
+
+Those external SVG images may fail, so GitHub displays only the alt text.
+
+This fixed version uses normal Markdown/HTML cards instead. They are reliable because they do not depend on an external repo-card image service.
+
+## Folder structure
 
 ```text
 vibhug0077/
@@ -12,33 +26,27 @@ vibhug0077/
         └── update-profile-readme.yml
 ```
 
-## Steps
+## Apply
 
 ```bash
 git clone https://github.com/vibhug0077/vibhug0077.git
 cd vibhug0077
-```
 
-Copy the generated files into this repository, then run:
+# Copy these files into the repository, then:
 
-```bash
 git add README.md scripts/update_profile_readme.py .github/workflows/update-profile-readme.yml
-git commit -m "feat: redesign dynamic GitHub profile README"
+git commit -m "fix: replace broken repo-card images with reliable profile cards"
 git push
 ```
 
-## Test the dynamic script locally
+## Test manually
 
 ```bash
 python scripts/update_profile_readme.py
 ```
 
-## Run manually from GitHub
-
-Go to:
+Or run from GitHub:
 
 ```text
 Actions → Update Profile README → Run workflow
 ```
-
-The workflow also runs daily at 08:00 IST.
