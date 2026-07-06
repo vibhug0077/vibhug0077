@@ -209,7 +209,7 @@ That is why my repositories focus on:
 <!--START:DYNAMIC_PROFILE-->
 ### Latest Profile Update
 
-- **Last automated update:** 2026-07-06 09:00 IST
+- **Last automated update:** 2026-07-06 12:43 IST
 - **Current focus:** Data Science, Linux Labs, Docker, MLOps and Cloud Deployment
 - **Active build mode:** Teaching repositories + practical project templates
 
@@ -217,9 +217,12 @@ That is why my repositories focus on:
 
 | Repository | Focus |
 |---|---|
-| [`Python_Programing`](https://github.com/vibhug0077/Python_Programing) | Python notebooks and programming foundations |
 | [`Linux_Lab`](https://github.com/vibhug0077/Linux_Lab) | Linux commands, Bash scripting and lab practice |
+| [`people-analytics-intelligence-lab`](https://github.com/vibhug0077/people-analytics-intelligence-lab) | Python based learning repository |
 | [`Docker_Containers`](https://github.com/vibhug0077/Docker_Containers) | Docker, containers and DevOps labs |
+| [`Python_Programing`](https://github.com/vibhug0077/Python_Programing) | Python notebooks and programming foundations |
+| [`UPES_PG_Template`](https://github.com/vibhug0077/UPES_PG_Template) | Learning Resource based learning repository |
+| [`Bridge-Course`](https://github.com/vibhug0077/Bridge-Course) | Learning Resource based learning repository |
 <!--END:DYNAMIC_PROFILE-->
 
 ---
