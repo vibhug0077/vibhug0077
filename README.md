@@ -8,12 +8,12 @@ Portfolio reference: https://vibhug0077.github.io/vibhug0077/
 <div align="center">
 
 <a href="https://vibhug0077.github.io/vibhug0077/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=230&color=0:061B33,45:0A2A66,100:0B4D73&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=42&fontSize=64&fontColor=FFFFFF&desc=People%20Analytics%20%7C%20Data%20AI%20%7C%20MLOps%20%7C%20Cloud%20%7C%20Academia&descAlign=50&descAlignY=65&descSize=22" alt="Vibhu Gautam Portfolio Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=230&color=0:061B33,45:0A2A66,100:0B4D73&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=42&fontSize=64&fontColor=FFFFFF&desc=Experienced%20Data%20Scientist%20%7C%20Machine%20Learning%20Leader%20%7C%20MLOps%20%7C%20Cloud&descAlign=50&descAlignY=65&descSize=22" alt="Vibhu Gautam Portfolio Banner" />
 </a>
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=2BCBFF&center=true&vCenter=true&width=950&lines=Professional+Portfolio+%7C+Data+Science+%7C+AI;People+Analytics+%2B+Data+AI+Leader;MLOps+%7C+Cloud+%7C+Linux+%7C+Docker+%7C+Kubernetes;Building+practical+teaching+labs+and+AI+systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=900&color=2BCBFF&center=true&vCenter=true&width=950&lines=Professional+Portfolio+%7C+Data+Science+%7C+AI;Experienced+Data+Scientist+%2B+Machine+Learning+Leader;MLOps+%7C+Cloud+%7C+Linux+%7C+Docker+%7C+Kubernetes;Building+practical+teaching+labs+and+AI+systems)](https://git.io/typing-svg)
 
 <br>
 
@@ -44,9 +44,9 @@ Portfolio reference: https://vibhug0077.github.io/vibhug0077/
 
 ## PROFESSIONAL PROFILE
 
-I am **Vibhu Gautam**, a **Data Science and Machine Learning Leader** and **Professor of Practice in Computer Science** with experience across industry and academia. My work connects **data science, applied AI, business analytics, cloud platforms, MLOps, Linux, Docker, Kubernetes and practical technical education**.
+I am **Vibhu Gautam**, an **Experienced Data Scientist and Machine Learning Leader** and **Professor of Practice in Computer Science** with experience across industry and academia. My work connects **data science, applied AI, business analytics, cloud platforms, MLOps, Linux, Docker, Kubernetes and practical technical education**.
 
-
+I build GitHub repositories that are designed to be useful for **students, labs, viva preparation, technical portfolios, applied AI projects and industry-style learning**.
 
 ---
 
@@ -56,13 +56,13 @@ I am **Vibhu Gautam**, a **Data Science and Machine Learning Leader** and **Prof
 <tr>
 <td width="33%" valign="top">
 
-### DATA AI
+### DATA SCIENCE
 
 - Machine Learning
 - Deep Learning
 - Business Analytics
-- People Analytics
 - Predictive Modeling
+- Applied Machine Learning
 - Applied AI Systems
 
 </td>
@@ -282,7 +282,7 @@ That is why my repositories focus on **clean folder structure, practical executi
 <!--START:DYNAMIC_PROFILE-->
 ### Latest Profile Update
 
-- **Last automated update:** 2026-07-06 13:20 IST
+- **Last automated update:** 2026-07-06 09:00 IST
 - **Current focus:** Data Science, Linux Labs, Docker, MLOps and Cloud Deployment
 - **Active build mode:** Teaching repositories + practical project templates
 
