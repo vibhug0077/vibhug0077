@@ -8,7 +8,7 @@ Portfolio reference: https://vibhug0077.github.io/vibhug0077/
 <div align="center">
 
 <a href="https://vibhug0077.github.io/vibhug0077/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=230&color=0:061B33,45:0A2A66,100:0B4D73&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=42&fontSize=64&fontColor=FFFFFF&desc=Experienced%20Data%20Scientist%20%7C%20Machine%20Learning%20Leader%20%7C%20MLOps%20%7C%20Cloud&descAlign=50&descAlignY=65&descSize=22" alt="Vibhu Gautam Portfolio Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=230&color=0:061B33,45:0A2A66,100:0B4D73&text=Vibhu%20Gautam&fontAlign=50&fontAlignY=42&fontSize=64&fontColor=FFFFFF&desc=Experienced%20Data%20Scientist%20%7C%20Machine%20Learning%20Leader&descAlign=50&descAlignY=65&descSize=22" alt="Vibhu Gautam Portfolio Banner" />
 </a>
 
 <br>
@@ -282,7 +282,7 @@ That is why my repositories focus on **clean folder structure, practical executi
 <!--START:DYNAMIC_PROFILE-->
 ### Latest Profile Update
 
-- **Last automated update:** 2026-07-06 13:22 IST
+- **Last automated update:** 2026-07-06 09:00 IST
 - **Current focus:** Data Science, Linux Labs, Docker, MLOps and Cloud Deployment
 - **Active build mode:** Teaching repositories + practical project templates
 
