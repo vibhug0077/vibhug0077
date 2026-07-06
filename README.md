@@ -44,9 +44,9 @@ Portfolio reference: https://vibhug0077.github.io/vibhug0077/
 
 ## PROFESSIONAL PROFILE
 
-I am **Vibhu Gautam**, a **People Analytics & Data AI Leader** and **Professor of Practice in Computer Science** with experience across industry and academia. My work connects **data science, applied AI, business analytics, cloud platforms, MLOps, Linux, Docker, Kubernetes and practical technical education**.
+I am **Vibhu Gautam**, a **Data Science and Machine Learning Leader** and **Professor of Practice in Computer Science** with experience across industry and academia. My work connects **data science, applied AI, business analytics, cloud platforms, MLOps, Linux, Docker, Kubernetes and practical technical education**.
 
-I build GitHub repositories that are designed to be useful for **students, labs, viva preparation, technical portfolios, applied AI projects and industry-style learning**.
+
 
 ---
 
