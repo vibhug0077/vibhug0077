@@ -1,0 +1,39 @@
+name: Update Profile README
+
+on:
+  schedule:
+    # Runs daily at 08:00 IST / 02:30 UTC
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "README.md"
+      - "scripts/update_profile_readme.py"
+      - ".github/workflows/update-profile-readme.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update dynamic profile section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile_readme.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update dynamic profile README"
+          file_pattern: README.md
